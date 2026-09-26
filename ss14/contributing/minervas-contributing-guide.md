@@ -89,6 +89,13 @@ After you push your changes successfully, go to the original GitHub page (not yo
 
 Maintainers may make requests about things or maybe you want to add more to your PR. To do this, just do these again: stage your changes, commit your changes, push your changes. This will update your PR.
 
+## Common problems
+### remote: Permission to Triad-Sector/Triad_Sector.git denied
+This occurs when trying to `git push` directly to our repository, which probably means you cloned our repository instead of your fork of our repository. If you run `git remote show origin`, it will show you a lot of information. In this instance, we care about the push URL. By default, this will point towards the `.git` URL you cloned from.
+
+If the URL doesn't point to your fork, use the following command. This will cleanly change where the remote is pointing to.
+`git remote set-url origin (the .git URL of your fork here)`
+
 ## Mapping
 Mapping is a bit tricky and I am not a mapper, nor have I taught mapping. I can only confidently cover the absolute basics. I'd recommend getting someone to teach you.
 
