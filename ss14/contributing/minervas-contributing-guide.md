@@ -19,7 +19,7 @@ To start, you will need...
 - A fork of the original repository on GitHub, made under your own GitHub account. Press the "Fork" button on the top of the screen in the original repository. From your new fork, you can get the `.git` link (which Git uses) by pressing the Code button right above the file viewer on the GitHub page of your fork. This is used later in this guide and the instruction to get this link will be repeated.
 - Git Bash, a command-line interface capable of using Git. This is recommended by me and the developer documentation. Command-line Git is universal and you will have a far better understanding of what you're doing.
 - Some program capable of editing files. `VSCode` or `VSCodium` works fine, but whatever you might already have installed would probably work as long as it isn't Microsoft Word.
-- A simple first project. If you're unsure, please ask a maintainer (ideally me) or ask in a development channel to maybe be assigned a simple one. Or find an easy idea post or bugfix. Ideas are usually easier.
+- A simple first project. If you're unsure, please ask a maintainer (ideally me) or ask in a development channel to maybe be assigned a simple one. Or find an easy idea post or bugfix. Ideas are usually easier. I recommend a *simple* project for your first because it would be far more disposable and easy to recreate if something went wrong.
 
 Aside: why do you need these things?
 - You can't make PRs or forks without a GitHub account.
