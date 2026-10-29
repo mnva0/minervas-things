@@ -88,6 +88,16 @@ With files added (you can use `git status` again to double-check) to tell Git we
 
 After you push your changes successfully, go to the original GitHub page (not your fork!) and you should see a new thing pop up near the top saying you can make a pull request asking to get your commits into the game!
 
+The [pull request template](https://github.com/Triad-Sector/Triad_Sector/blob/main/.github/PULL_REQUEST_TEMPLATE.md) has a lot of stuff, and all we usually want is a description of the changes. An image is also nice to have! If you are not using a section or do not strictly need it, you are free to delete that section if you'd like.
+
+Changelogs are also something that doesn't strictly need to be included. They are *player-facing* descriptions of your changes, so they should...
+- Be sufficiently impactful to warrant informing players. A majority of my own PRs have no changelog because players won't care about things with no real impact to gameplay, like typofixes and such.
+- Be understandable for a player, which means no technical details! Players only care about the end result of the changes.
+
+The extra lines in the changelog template just show you the possible options for which icon is used for the changelog entry. Delete any you aren't using, and if you need more changelog entries, just copy the line.
+You can change your name by adding it after the :cl: symbol, like `:cl: Minerva`. It will default to your GitHub username.
+If you'd like to read more about changelogs, see the [Space Station 14 developer documentation here.](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html#changelog) This has details on writing good changelogs, as well as some more changelog-related things.
+
 Maintainers may make requests about things or maybe you want to add more to your PR. To do this, just do these again: stage your changes, commit your changes, push your changes. This will update your PR.
 
 ## Common problems
