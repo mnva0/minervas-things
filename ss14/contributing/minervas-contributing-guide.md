@@ -61,6 +61,7 @@ When you're done with the server, you should shut it down. Type "shutdown" in th
 *Now* we can start contributing.
 
 We'll need a fresh branch (a parallel version of your local repository in a way) to hold your changes in. Do not continue on the "main" branch, as that should be kept clean for new branches to be made from. The maintainers will not accept PRs (pull requests) made from your "main" branch.
+"main" and "master" branches refer to the same thing, but we use "main".
 
 `git status` will show you an **overview of your changes**, including which branch you're on.
 `git branch your-new-branch-name-here main` can create a new branch off of your current one.
