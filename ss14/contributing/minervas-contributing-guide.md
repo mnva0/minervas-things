@@ -109,7 +109,7 @@ Mapping is a bit tricky and I am not a mapper, nor have I taught mapping. I can 
 I would recommend going through the above before doing this, as this builds on top of everything else.
 
 `git-cherry-pick - Apply the changes introduced by some existing commits`
-Cherrypicking allows you to take commits from somewhere else and put them here. Git helpfully automates this.
+Cherrypicking allows you to take commits from somewhere else and put them here. Far safer, better, and cleaner than copying pieces of a file by hand! Git helpfully automates this.
 
 Git has no clue *where* the commits we want are, though. So we have to add a new remote for this. Go to the GitHub repository of where you want to cherrypick from and get their `.git` url—the same one you'd use for cloning.
 You can use `git remote show` to show all your remotes. The only one in there might be "origin", which is your fork or where you cloned your local repository from.
